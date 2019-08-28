@@ -20,12 +20,12 @@ class RectangleTest {
     @Test
     void expectPerimeter16ForLength4Breadth2() {
         Rectangle rectangle = new Rectangle(4.0, 2.0);
-        assertEquals(12.0, rectangle.perimeter());
+        assertEquals(12.0, rectangle.perimeter(2));
     }
 
     @Test
     void expectPerimeter16ForLength5Breadth3() {
         Rectangle rectangle = new Rectangle(5.0, 3.0);
-        assertEquals(16.0, rectangle.perimeter());
+        assertEquals(16.0, rectangle.perimeter(2));
     }
 }

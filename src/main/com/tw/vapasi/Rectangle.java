@@ -16,7 +16,9 @@ class Rectangle {
         return length * breadth;
     }
 
-    double perimeter() {
-        return 2 * (length + breadth);
+    double perimeter(int TWO) {
+        return TWO * (length + breadth);
     }
 }
+
+
