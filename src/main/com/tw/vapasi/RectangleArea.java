@@ -1,9 +1,13 @@
 package com.tw.vapasi;
 
 public class RectangleArea {
-
-    int computeArea(int length, int breadth){
+    private double length;
+    private double breadth;
+    public RectangleArea(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+    double area(){
         return  length * breadth;
-
     }
 }
